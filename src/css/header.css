@@ -1,0 +1,125 @@
+header {
+  padding: 0px 101px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: calc(100% - 202px);
+  z-index: 51;
+  background-color: white;
+}
+.hiden {
+  display: none;
+}
+.logo {
+  height: 41px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  width: calc(50% - 41px / 2);
+  margin-top: 24px;
+}
+.nav-item {
+  font-weight: 600;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding: 4px 16px 32px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.active {
+  color: #5ece7b;
+  border-bottom: 2px solid #5ece7b;
+}
+.actions {
+  display: flex;
+  height: 80px;
+  width: calc(50% - 41px / 2);
+  justify-content: flex-end;
+  align-items: center;
+}
+.currency-switcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 22px;
+  cursor: pointer;
+  width: 38px;
+}
+.cart {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.cart svg {
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+.cart-lenght {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  background-color: #1d1f22;
+  color: white;
+  border-radius: 50%;
+}
+.currency-main {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  width: 38px;
+}
+.currency-name {
+  width: 32px;
+  text-align: center;
+}
+.toggler-active {
+  transform: rotate(180deg);
+}
+.toggle-currencies-list {
+  /* will-change for safari drop-shadow proper behavior*/
+  will-change: filter;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 35px;
+  margin-right: -63px;
+  width: 114px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
+  z-index: 250;
+}
+div:focus-visible {
+  outline: none;
+}
+.active-currency {
+  background-color: #eeeeee;
+}
+.currency {
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
