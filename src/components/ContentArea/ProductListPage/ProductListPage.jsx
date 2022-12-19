@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "./ProductCard/ProductCard";
 class ProductListPage extends Component {
   //Shows more products of current category when scrolled to the bottom of the page
   componentDidMount() {
