@@ -62,7 +62,6 @@
   margin-left: calc(16px + 354px - 52px - 15px);
   justify-content: center;
   align-items: center;
-  z-index: 5;
 }
 .add-to-cart-icon svg path {
   fill: white;
@@ -108,7 +107,7 @@
   left: 0px;
   top: 80px;
   background: rgba(57, 55, 72, 0.22);
-  z-index: 50;
+  z-index: 1;
 }
 /* End Of Wrapper for Content when CartOverlay is active */
 

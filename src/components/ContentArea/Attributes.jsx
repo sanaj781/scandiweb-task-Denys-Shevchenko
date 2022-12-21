@@ -9,8 +9,8 @@ class Attributes extends Component {
       handleAttributeChange,
       attributesStyle,
     } = this.props;
-
     const setAttributeClassName = (name, value, type) => {
+      // Set class name depending on component: CartOverlay, PDP, cartPage
       const className =
         attributesStyle === "cartOverlay"
           ? "-overlay"
@@ -19,6 +19,7 @@ class Attributes extends Component {
           : attributesStyle === "cartPage"
           ? "-cartPage"
           : undefined;
+      // Set class name depending on type(swatch, text), choosen/default attribute
       if (name && value && type) {
         //Setting styles for all attributes of an item
         for (const attribute of defaultAttributes) {

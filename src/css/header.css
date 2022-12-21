@@ -8,7 +8,7 @@ header {
   left: 0;
   top: 0;
   width: calc(100% - 202px);
-  z-index: 51;
+  z-index: 2;
   background-color: white;
 }
 .hiden {
@@ -106,7 +106,7 @@ nav {
   width: 114px;
   background-color: white;
   filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
-  z-index: 250;
+  z-index: 3;
 }
 div:focus-visible {
   outline: none;

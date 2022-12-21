@@ -75,10 +75,10 @@ class ContentArea extends Component {
             />
             {products.map((product, index) => (
               <Route
-                key={index}
                 path={`product/${product.id}`}
                 element={
                   <ProductDescriptionPage
+                    key={index}
                     product={product}
                     activeCurrency={activeCurrency}
                     addToCart={addToCart}
